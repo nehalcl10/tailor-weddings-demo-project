@@ -74,7 +74,7 @@ Full rationale, current floors, and the local `pre-push` behavior live in `docs/
 | `develop` | Staging | Default branch. All active development flows here. |
 | `main` | Production | Stable, released code only. Never committed to directly. |
 
-During MVP, only the staging environment (the `develop` branch) is deployed. `main` is dormant, so `develop` permanently runs ahead of it. That divergence, the one-time unrelated-histories merge a template-derived repo needs, and how to run a release merge are covered in [Branching and Releases](docs/engineering/branching-and-releases.md).
+During MVP, only the staging environment (the `develop` branch) is deployed. `main` is dormant.
 
 ### Branch Naming
 
